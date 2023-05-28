@@ -138,6 +138,8 @@ function calcDate(date1,date2)
     vals[1].innerHTML = months;
     vals[2].innerHTML = days;
 
+
+    //message to string
     var message = date2.toDateString();
     message += " was "
     message += days + " days " 
